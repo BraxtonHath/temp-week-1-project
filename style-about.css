@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #F2F1E8;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-top{
+  position: fixed;
+  background-size: cover;
+  width: 100%;
+  font-size: 28px;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  color: black;
+  padding: 0;
+}
+
+li{
+  padding: 0 60px;
+}
+
+.title-header{
+  /*position: relative;*/
+  height: 100px;
+  font-size: 52px;
+  text-align: center;
+}
+
+.image-1{
+  /*position: reletive;*/
+  display: flex;
+  background-color: red;
+  font-size: 28px;
+  height: 272px;
+  width: 861px;
+  margin: 0 206px;
+  /*line-height: 25px;*/
+  /*text-align: left;*/
+}
+
+#birdhouse{
+  background-image: url("optimized/birdhouse.jpg");
+}
+
+.paragraph-image{
+  /*display: flex;*/
+  float: left;
+  background-size: 160px 120px;
+  height: 160px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.paragraph-2{
+  text-align: left;
+  padding: 0px 30px;
+  border-left-style: solid;
+  margin: 80px 206px;
+  font-size: 28px;
+  color: #131511
+  border
+}
+
+.paragraph-3{
+  margin: 0 206px;
+  font-size: 28px
+}
