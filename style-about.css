@@ -14,10 +14,11 @@ body {
 
 .navigation-top{
   position: fixed;
+  top: 0;
   background-size: cover;
   width: 100%;
-  font-size: 28px;
-  padding: 10px;
+  font-size: 18px;
+  padding: 0px;
   background-color: #FFFFFF;
 }
 
@@ -32,11 +33,16 @@ li{
   padding: 0 60px;
 }
 
+header{
+  padding-top: 50px
+}
+
 .title-header{
   /*position: relative;*/
   height: 100px;
   font-size: 52px;
   text-align: center;
+  top: 100px;
 }
 
 .image-1{
@@ -77,4 +83,74 @@ li{
 .paragraph-3{
   margin: 0 206px;
   font-size: 28px
+}
+
+.banner-img{
+  height: 600px;
+  background-color: red;
+}
+
+#background-3{
+  background-image: url("optimized/background-3.jpg");
+}
+
+.image-banner{
+  background-size: cover;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+.image-title{
+  color: white;
+  position: absolute;
+  font-size: 85px;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  left: 31%;
+  top: 321%;
+}
+
+.paragraph-4{
+  margin: 0 206px;
+  font-size: 28px;
+}
+
+aside{
+  display: flex;
+}
+
+#background-1{
+  background-image: url("optimized/background-1.jpg");
+}
+
+.aside-image{
+  background-size: 160px 120px;
+  height: 160px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+table{
+  border-collapse: collapse;
+  margin: 0 206px;
+  font-size: 28px;
+}
+
+td, th{
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+
+tr:nth-child(odd){
+  background-color: white;
+}
+
+tr:nth-child(odd){
+  background-color: #F2EADC;
+}
+
+.bottom-nav{
+  height: 102px;
+  background-color: #2A2E25
 }
