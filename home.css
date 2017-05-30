@@ -12,6 +12,16 @@ body {
   padding: 0;
 }
 
+#bent-creek-black{
+  background-image: url("optimized/bent-creek-logo.png");
+}
+
+.nav-img{
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+}
+
 .navigation-top{
   position: fixed;
   top: 0;

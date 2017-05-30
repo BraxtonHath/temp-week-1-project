@@ -12,49 +12,53 @@ body {
   padding: 0;
 }
 
+p{
+  line-height: 40px
+}
+
 .navigation-top{
   position: fixed;
   top: 0;
-  background-size: cover;
+  /*background-size: cover;*/
   width: 100%;
-  font-size: 18px;
-  padding: 0px;
+  /*padding: 0px;*/
   background-color: #FFFFFF;
-}
+  }
 
 .nav{
   display: flex;
-  justify-content: center;
+  justify-content: left;
   color: black;
-  padding: 0;
+  margin: 10px;
+  list-style: none;
+  text-decoration: underline;
+  font-size: 28px
 }
 
-li{
-  padding: 0 60px;
+.nav-bar{
+  display: flex;
+  justify-content: center;
 }
+
 
 header{
   padding-top: 50px
 }
 
 .title-header{
-  /*position: relative;*/
   height: 100px;
   font-size: 52px;
   text-align: center;
   top: 100px;
 }
 
-.image-1{
-  /*position: reletive;*/
-  display: flex;
-  background-color: red;
+.image-1 {
+  margin: 0 10px 10px 0;
   font-size: 28px;
   height: 272px;
-  width: 861px;
+  width: 915px;
   margin: 0 206px;
-  /*line-height: 25px;*/
-  /*text-align: left;*/
+  text-align: left;
 }
 
 #birdhouse{
@@ -62,11 +66,11 @@ header{
 }
 
 .paragraph-image{
-  /*display: flex;*/
   float: left;
-  background-size: 160px 120px;
+  margin: 0 30px 5px 0;
+  background-size: 160px 160px;
   height: 160px;
-  width: 100%;
+  width: 160px;
   background-repeat: no-repeat;
 }
 
@@ -86,55 +90,52 @@ header{
 }
 
 .banner-img{
+  display:flex;
+  justify-content: center;
+  align-items: center;
   height: 600px;
   background-color: red;
-}
-
-#background-3{
   background-image: url("optimized/background-3.jpg");
-}
-
-.image-banner{
+  background-position: center;
+  background-attachment: fixed;
   background-size: cover;
-  height: 600px;
   background-repeat: no-repeat;
 }
 
 .image-title{
   color: white;
-  position: absolute;
   font-size: 85px;
   font-weight: 400;
   text-align: center;
   font-style: normal;
-  left: 31%;
-  top: 321%;
 }
 
-.paragraph-4{
-  margin: 0 206px;
-  font-size: 28px;
-}
-
-aside{
+.image-and-text{
   display: flex;
-}
-
-#background-1{
-  background-image: url("optimized/background-1.jpg");
-}
-
-.aside-image{
-  background-size: 160px 120px;
-  height: 160px;
-  width: 100%;
+  flex-direction: row;
   background-repeat: no-repeat;
+  margin: 0 206px;
+  font-size: 28px
+}
+/*.image32 {
+  object-fit: cover;
+}*/
+.right {
+  float: right;
+  width: 160px;
+  margin-top: 110px;
+  font-size: 14px;
+  line-height: 14px
+}
+
+.table{
+  margin: 0 206px;
+  font-size: 28px
 }
 
 table{
   border-collapse: collapse;
-  margin: 0 206px;
-  font-size: 28px;
+  margin-bottom: 50px
 }
 
 td, th{
@@ -151,6 +152,9 @@ tr:nth-child(odd){
 }
 
 .bottom-nav{
-  height: 102px;
-  background-color: #2A2E25
+  height: 30px;
+  background-color: #2A2E25;
+  color: white;
+  padding: 40px 20px;
+  font-size: 28px;
 }
