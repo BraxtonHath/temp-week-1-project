@@ -43,6 +43,16 @@ body {
   font-size: 52px;
   text-align: center;
   top: 100px;
+  font-family: "Merriweather"
+}
+h4{
+  margin-bottom: -55px;
+  font-size: 75px;
+  font-weight: lighter;
+}
+
+h5{
+  font-weight: lighter;
 }
 
 .chart-of-images{
@@ -60,6 +70,7 @@ p{
   padding: 17px;
   font-size: 28px;
   position: absolute;
+  font-family: ""
 }
 
 .image-one{
