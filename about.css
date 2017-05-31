@@ -20,21 +20,25 @@ body {
   background-color: #FFFFFF;
   }
 
-.yo{position: absolute;}
+.yo{
+  position: absolute;
+  top: 20%;
+  left: 0
+}
 
 .nav{
   display: flex;
   justify-content: space-around;
   padding: 0 400px;
-  color: black;
   margin: 10px;
   list-style: none;
   text-decoration: underline;
-  font-size: 28px;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .nav-bar{
-  padding: 0 10px
+  padding: 0 10px;
 }
 
 a{
