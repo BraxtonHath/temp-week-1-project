@@ -37,6 +37,18 @@ body {
   padding: 0 10px
 }
 
+a{
+  color:#2B2F26;
+  font-family: "Roboto"
+}
+a:hover{
+  color:#CD5D67;
+}
+
+.active{
+  color:#968772;
+}
+
 .page-title{
   display: inline;
   height: 100px;

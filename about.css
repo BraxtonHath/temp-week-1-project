@@ -11,15 +11,12 @@ body {
   margin: 0;
   padding: 0;
   line-height: 45px;
-
 }
 
 .navigation-top{
   position: fixed;
   top: 0;
-  /*background-size: cover;*/
   width: 100%;
-  /*padding: 0px;*/
   background-color: #FFFFFF;
   }
 
@@ -40,6 +37,25 @@ body {
   padding: 0 10px
 }
 
+a{
+  color:#2B2F26;
+  font-family: "Roboto"
+}
+a:hover{
+  color:#CD5D67;
+}
+
+.active{
+  color:#968772;
+}
+
+.text-link{
+  color:#968772;
+}
+
+.text-link:hover{
+  color: #967343
+}
 
 header{
   padding-top: 50px
