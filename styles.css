@@ -10,6 +10,7 @@ body {
   background-color: #F2F1E8;
   margin: 0;
   padding: 0;
+  width: 1400px;
 }
 
 /*______________NAV BAR CSS___________________________*/
@@ -230,7 +231,7 @@ h5{
 
 .chart-of-images{
   display: flex;
-  padding: 0;
+  padding: 0 25px;
 }
 .img{
   position: relative;
@@ -248,11 +249,12 @@ h5{
 
 .image-one{
   padding: 10px 10px;
+
 }
 
 .chart-of-images-bottom{
   display: flex;
-  padding: 0px;
+  padding: 0 25px;
 }
 
 .bottom-nav{
