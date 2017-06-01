@@ -2,15 +2,11 @@ html {
   height: 100%;
   box-sizing: border-box;
 }
-*:after {
-  box-sizing: inherit;
-}
 
 body {
   background-color: #F2F1E8;
   margin: 0;
   padding: 0;
-  width: 1300px;
 }
 
 /*______________NAV BAR CSS___________________________*/
@@ -257,14 +253,6 @@ h5{
   padding: 0 15px;
 }
 
-.bottom-nav{
-  bottom: 0;
-  width: 100%;
-  background-color: #2A2E25;
-  color: white;
-  padding: 1px 20px;
-  font-size: 28px;
-}
 
 /*___________________________NEWSLETTER CSS______________*/
 
